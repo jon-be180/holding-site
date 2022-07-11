@@ -1,0 +1,28 @@
+{
+  "fpsLimit": 60,
+  "background": {
+    "color": "#ffff"
+  },
+  "particles": {
+    "color": { "value": "#000" },
+    "move": {
+      "bounce": false,
+      "direction": "none",
+      "enable": true,
+      "outModes": "out",
+      "random": false,
+      "speed": 2,
+      "straight": false
+    },
+    "number": { "density": { "enable": true, "area": 800 }, "value": 80 },
+    "opacity": {
+      "value": 0.5
+    },
+    "shape": {
+      "type": "circle"
+    },
+    "size": {
+      "value": { "min": 1, "max": 5 }
+    }
+  }
+}
