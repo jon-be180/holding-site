@@ -15,11 +15,12 @@ module.exports = {
         }
       },
       {
-        resolve: 'gatsby-plugin-web-font-loader',
+        resolve: `gatsby-plugin-google-fonts`,
         options: {
-          google: {
-            families: ['Quicksand', 'Open Sans']
-          }
+          fonts: [
+            `Quicksand`
+          ],
+          display: 'swap'
         }
       },
       {
@@ -39,6 +40,25 @@ module.exports = {
         __key: "pages"
       },
       {
+        resolve: `gatsby-plugin-sharp`,
+        options: {
+          defaults: {
+            formats: [`auto`, `webp`],
+            placeholder: `dominantColor`,
+            quality: 50,
+            breakpoints: [750, 1080, 1366, 1920],
+            backgroundColor: `transparent`,
+            tracedSVGOptions: {},
+            blurredOptions: {},
+            jpgOptions: {},
+            pngOptions: {},
+            webpOptions: {},
+            avifOptions: {},
+          },
+        },
+      },
+      `gatsby-plugin-image`,
+      /*{
         resolve: "gatsby-plugin-google-tagmanager",
         options: {
           id: "YOUR_GOOGLE_TAGMANAGER_ID",
@@ -69,6 +89,6 @@ module.exports = {
           // Defaults to https://www.googletagmanager.com
           selfHostedOrigin: "YOUR_SELF_HOSTED_ORIGIN",
         },
-      },
+      },*/
     ]
 };
