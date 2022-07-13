@@ -10,9 +10,11 @@ const style = {
 const Footer = () => {
     return (
         <footer style={style}>
-            <p>Built with Gatsby, hosted by AWS. {"Company No. " + data.companyNumber}</p>
+            <p>Built with Gatsby, hosted by CloudFlare.</p>
         </footer>
     )
 }
+
+//{"Company No. " + data.companyNumber}
 
 export default Footer
