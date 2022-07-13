@@ -1,4 +1,4 @@
-import React from "React"
+import * as React from "react"
 import data from "../data.json"
 
 const style = {
