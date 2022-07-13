@@ -1,0 +1,23 @@
+{
+    "author": {
+        "firstName": "Jon",
+        "surname": "Knight",
+        "email": "jon@be180.co.uk",
+        "github": {
+            "user": "jon-be180"
+        },
+        "linkedin": {
+            "user": "jonathan-knight-892a25b9"
+        }
+    },
+    "logo": {
+        "src": "",
+        "alt": "be180 ltd logo"
+    },
+    "tagline": "PHP, JavaScript, DevOps",
+    "title": "be180 - PHP, JavaScrupt, DevOps",
+    "companyDescription": "be180.co.uk Ltd Consulting",
+    "website": "https://be180.co.uk",
+    "meta": "be180 website",
+    "companyNumber": "??????"
+}

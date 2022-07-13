@@ -1,13 +1,10 @@
 import React from "React"
+import data from "../data.json"
 
 const style = {
     margin: "0 0.5em",
     zIndex: 1,
     textAlign: "center"
-  }
-
-const data = {
-    companyNumber: "??????"
 }
 
 const Footer = () => {
