@@ -58,7 +58,6 @@ module.exports = {
         },
       },
       `gatsby-plugin-image`,
-      // using cloudflare for webstats so no need for gatsby-plugin-google-tagmanager
       {
         resolve: `gatsby-plugin-manifest`,
         options: {
