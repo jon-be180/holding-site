@@ -4,7 +4,6 @@ import Particles from "react-tsparticles"
 import particleOptions from "../particles-config.json"
 import { loadFull } from "tsparticles"
 import { Link } from "gatsby"
-
 import { StaticImage } from "gatsby-plugin-image"
 
 import Footer from "../components/footer"
@@ -63,8 +62,14 @@ const IndexPage = () => {
         <html lang="en" amp />
         <meta charSet="utf-8" />
         <title>{data.title}</title>
+        <meta name="title" content={data.title} />
         <link rel="canonical" href={data.website} />
         <meta name="description" content={data.meta} />
+        <meta property="og:title" content={data.og.title} />
+        <meta property="og:type" content={data.og.type} />
+        <meta property="og:first_name" content={data.og.first_name} />
+        <meta property="og:last_name" content={data.og.last_name} />
+        <meta property="og:gender" content={data.og.gender} />
       </Helmet>
       <Particles style={particles} options={particleOptions} init={particlesInit} />
       <section style={outerContainer}>

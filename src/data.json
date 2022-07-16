@@ -15,9 +15,16 @@
         "alt": "be180 ltd logo"
     },
     "tagline": "PHP, JavaScript, DevOps",
-    "title": "be180 - PHP, JavaScript, DevOps",
-    "companyDescription": "be180.co.uk Ltd Consulting",
+    "title": "be180 Consulting - PHP, JavaScript, DevOps by Jon Knight",
+    "companyDescription": "be180 ltd consulting",
     "website": "https://be180.co.uk",
-    "meta": "be180 website",
-    "companyNumber": "??????"
+    "meta": "PHP, Javascript and DevOps Consulting from Jon Knight",
+    "companyNumber": "??????",
+    "og": {
+        "title": "Jon Knight -  PHP, Jascript and DevOps Consulting",
+        "type": "Profile",
+        "first_name": "Jon",
+        "last_name": "Knight",
+        "gender": "male"
+    }
 }
