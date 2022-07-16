@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Holding Site`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://be180.co.uk`
   },
   plugins:
     [
@@ -26,8 +26,8 @@ module.exports = {
       {
         resolve: 'gatsby-plugin-robots-txt',
         options: {
-          host: 'https://www.example.com',
-          sitemap: 'https://www.example.com/sitemap.xml',
+          host: 'https://be180.co.uk',
+          sitemap: 'https://be180.co.uk/sitemap.xml',
           policy: [{ userAgent: '*', allow: '/' }]
         }
       },
