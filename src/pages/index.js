@@ -83,7 +83,7 @@ const IndexPage = () => {
             <h2 style={h2}>{data.tagline}</h2>
             <p>{data.companyDescription}</p>
             <p>
-              <Link to={"mailto:" + data.author.email}>{data.author.email}</Link> | <Link target="_blank" to={"https://github.com/" + data.author.github.user}>GitHub</Link> | <Link target="_blank" to={"https://www.linkedin.com/in/" + data.author.linkedin.user + "/"}>LinkedIn</Link>
+              <Link title="My Email Address" to={"mailto:" + data.author.email}>{data.author.email}</Link> | <Link title="My GitHub Account" target="_blank" to={"https://github.com/" + data.author.github.user}>GitHub</Link> | <Link title="My LinkedIn Account" target="_blank" to={"https://www.linkedin.com/in/" + data.author.linkedin.user + "/"}>LinkedIn</Link>
             </p>
           </aside>
         </section>
