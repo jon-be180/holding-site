@@ -11,7 +11,18 @@ module.exports = {
       {
         resolve: 'gatsby-plugin-manifest',
         options: {
-          "icon": "src/images/icon.png"
+          name: `be180`,
+          short_name: `be180`,
+          start_url: `/`,
+          background_color: `#469BE0`,
+          theme_color: `#1F6094`,
+          display: `standalone`,
+          icon: `src/images/icon.png`,
+          icon_options: {
+            // For all the options available,
+            // please see the section "Additional Resources" below.
+            purpose: `any maskable`,
+          },
         }
       },
       {
