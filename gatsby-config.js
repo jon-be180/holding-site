@@ -26,15 +26,6 @@ module.exports = {
         }
       },
       {
-        resolve: `gatsby-plugin-google-fonts`,
-        options: {
-          fonts: [
-            `Quicksand`
-          ],
-          display: 'swap'
-        }
-      },
-      {
         resolve: 'gatsby-plugin-robots-txt',
         options: {
           host: 'https://be180.co.uk',

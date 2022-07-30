@@ -5,6 +5,7 @@ import particleOptions from "../particles-config.json"
 import { loadFull } from "tsparticles"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import "@fontsource/quicksand"
 
 import Footer from "../components/footer"
 
